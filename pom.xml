@@ -22,7 +22,7 @@
         <dependency>
             <groupId>com.github.stSoftwareAU</groupId>
             <artifactId>st-client</artifactId>
-            <version>master</version>
+            <version>9.0.0</version>
         </dependency>
         <dependency>
             <groupId>com.sun.mail</groupId>
@@ -37,7 +37,12 @@
             <artifactId>xalan</artifactId>
             <version>2.7.2</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-client</artifactId>
+            <version>5.13.1</version>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -90,7 +95,7 @@
                             <archive>
                                 <manifest>
                                     <mainClass>
-                                        com.aspc.remote.performance.BenchMarkApp
+                                        com.aspc.remote.performance.App
                                     </mainClass>
                                 </manifest>
                             </archive>

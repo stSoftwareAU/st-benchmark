@@ -1,0 +1,14 @@
+{
+  "file":"/home/user/src/benchmark/src/main/java/com/aspc/remote/performance/samples/loop_frequency.xml",
+  "URL":"user:user@demo.jobtrack.com.au",
+  "email": {
+    "to":"bob@example.com",
+    "from":"test@example.com",
+    "smtp":{
+      "host":"email-smtp.us-east-1.amazonaws.com",
+      "user":"AKIA.......RFA",
+      "password":"AmLf.......KAdgmlm+",
+      "ssl":true
+    }
+  }
+}
